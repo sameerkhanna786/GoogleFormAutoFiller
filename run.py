@@ -17,7 +17,9 @@ max_wait_time = 500
 min_wait_time = 1
 input = "https://docs.google.com/forms/d/e/1FAIpQLSdKvDagIzG6E_3iYtwGs2RPR8T0luTzVVrZW1gyHhoXc0VBUg/viewform?usp=pp_url&entry.434085909=77"
 #List is the skew of the randomness of the distribution.
-#Place in list the numbers you want to appear more frequently (list those you want to occur more often more times in list).
+#Place in list the numbers you want to appear more frequently in the form
+#Out of the given number that you want to skew, list those you want to occur more often more times in list
+#So if I want 7 and 77 to occur more often, but I want 7 to occur twice as often, list 7 twice and 77 once
 list = [7, 7, 7, 7, 7, 7, 7, 7, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 99, 9, 1, 100, 5, 11, 22, 33, 44, 55, 66, 77, 88, 7, 20, 18, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 4, 9, 16, 25, 36, 49, 64, 81, 100, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 #In case the user entered the numbers in the wrong order
