@@ -1,5 +1,5 @@
 # GoogleFormAutoFiller
-Simple script that allows for repeated autofilling of simple google form using CSRF principles
+Simple script that allows for repeated autofilling of a simple google form using CSRF principles.
 
 ## Setup
 Make sure you have the python package psutil installed. It allows python to identify running processes, which allows for easy closing of browsers. All other packages used should be built-in; if not however, please install the packages you are missing.
